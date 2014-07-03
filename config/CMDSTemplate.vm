@@ -1,0 +1,3 @@
+#foreach($x in $body)
+ $x.Address.Addressline1,$x.Address.Addressline2,$x.Address.Addressline3,$x.Address.Addressline4,$x.Address.Addressline5,$x.Address.Addressline6,$x.Address.Addressline7,$x.Address.Addressline8,$x.Address.Addressline9,$x.Address.Addressline10,$x.Address.COUNTRYCODE,$x.Address.POSTALCODE,$x.Address.REGION,$x.Address.TOWNORCITY,$x.Address.ADDRESSTYPE,$x.Address.DUNSNUMBEROFLOCATION,$x.Address.ENTITYTYPE,$x.Address.FROMDATE,$x.Address.PRINCIPALCONTACT,$x.Address.STATUSATTHEADDRESS,$x.Address.TODATE
+#end

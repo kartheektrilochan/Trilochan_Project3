@@ -1,0 +1,3 @@
+#foreach($addlist in $body)
+ $addlist.addressid,$addlist.addressline1,$addlist.ubisarchive,$addlist.ubisdelete,$addlist.docid,$addlist.ubpremisesstatus
+#end
